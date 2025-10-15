@@ -344,6 +344,18 @@
 }
 /*** Carousel Hero Header End ***/
 
+/* Make carousel images fill the full hero height */
+.calrousel-img {
+    height: 100%;
+    display: block;
+}
+.calrousel-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
 
 /*** Single Page Hero Header Start ***/
 .bg-breadcrumb {
